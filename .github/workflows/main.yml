@@ -14,6 +14,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: files.000webhost.com
+        server: files.000webhost.com/public_html
         username: xanderitsmeproject
         password: ${{ secrets.FTP_PASSWORD }}
