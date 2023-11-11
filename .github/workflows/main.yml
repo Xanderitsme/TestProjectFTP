@@ -14,6 +14,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp://195.35.49.52
+        server: ftp://thestorfile.shop
         username: u544983939
         password: ${{ secrets.FTP_PASSWORD }}
